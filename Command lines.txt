@@ -1,0 +1,7 @@
+COMMAND LINES
+
+./image compare car_original.ppm car_output.ppm car_differences.pbm
+
+./image uncompress car_occupancy.pbm car_data.ppm car_offset.offset car_output.ppm
+
+./image compress car_original.ppm car_occupancy.pbm car_data.ppm car_offset.offset
